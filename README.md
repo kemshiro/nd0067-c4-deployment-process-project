@@ -1,5 +1,7 @@
 ### Project overview
 
+- Web url: http://my-kemshiro-bucket-409759459271.s3-website-us-east-1.amazonaws.com
+
 - In this project. I'm using the starter code provide classrom
 - Try to follow the steps:
   - Set up Github, push the code to Github
