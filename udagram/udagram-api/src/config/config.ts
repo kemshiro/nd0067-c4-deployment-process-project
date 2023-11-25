@@ -1,4 +1,5 @@
 import * as dotenv from "dotenv";
+import * as process from "process";
 dotenv.config();
 
 // ENV variables 
@@ -11,6 +12,7 @@ export const config = {
   password: process.env.POSTGRES_PASSWORD,
   database: process.env.POSTGRES_DB,
   host: process.env.POSTGRES_HOST,
+  port: Number(process.env.POSTGRES_PORT),
   // eslint-disable-next-line @typescript-eslint/camelcase
   aws_region: process.env.AWS_REGION,
   // eslint-disable-next-line @typescript-eslint/camelcase
@@ -21,4 +23,6 @@ export const config = {
   jwt: {
     secret: process.env.JWT_SECRET,
   },
+  awsAccessKeyId : process.env.AWS_ACCESS_KEY_ID,
+  awsSecretAccessKey : process.env.AWS_SECRET_ACCESS_KEY,
 };
