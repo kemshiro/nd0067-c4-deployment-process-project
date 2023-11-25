@@ -25,4 +25,5 @@ export const config = {
   },
   awsAccessKeyId : process.env.AWS_ACCESS_KEY_ID,
   awsSecretAccessKey : process.env.AWS_SECRET_ACCESS_KEY,
+  awsDefaultRegion : process.env.AWS_DEFAULT_REGION,
 };
